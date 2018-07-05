@@ -1,0 +1,35 @@
+body{
+	background-image: url(waves.jpg);
+	background-size: cover;
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container{
+	margin-top: 250px;
+	height: 300px;
+	transition: all 1s;
+
+}
+.container:hover{
+	transform: scale(1.07);
+
+}
+p{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 200%;
+	font-weight: bold;
+}
+hr{
+	max-width: 65px;
+	border-width: 10px
+	border-color:white;
+}
+.btn-primary {
+	border-radius: 30px;
+	border: solid 1px black;
+	margin-left: 450px;
+	margin-top: 190px;
+	padding: 15px 25px;
+	display: inline-block;
+}
